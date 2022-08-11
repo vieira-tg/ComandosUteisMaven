@@ -32,7 +32,7 @@
   </build>
 ```
 
-#### No exemplo acima, não é indicado a class main, ela pode ser inserida no pom, ou até indicada na compilição atraves do comando: 
+#### No exemplo acima, não é indicado a class main, ela pode ser inserida no pom, ou até indicada na compilação atraves do comando: 
 ```  
   mvn install -D my.mainClass=br.com.enviorede.SuaClasseMain
 ```
