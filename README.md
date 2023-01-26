@@ -33,6 +33,23 @@
 ```
 
 #### No exemplo acima, não é indicado a class main, ela pode ser inserida no pom, ou até indicada na compilação atraves do comando: 
-```  
+``` 
   mvn install -D my.mainClass=br.com.enviorede.SuaClasseMain
+```
+
+
+### Adicionando resources ao .jar do projeto:
+
+```
+ </build>
+   <resources>
+     <resource>
+     <directory>src/main/resources</directory>
+       <includes>
+         <include>*.png</include>
+         <include>*.gif</include>
+       </includes>
+     </resource>
+   </resources>
+  </build>
 ```
